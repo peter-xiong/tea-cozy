@@ -1,0 +1,159 @@
+/*
+  Table of Contents
+  1.  General Elements
+  2.  Navigation
+  3.  Mission
+  4.  Tea of Month
+  5.  Location
+  6.  Footer
+  7.  Copyright
+*/
+
+/* 1.  General Elements */
+body {
+  background-color: black;
+  font-family: "Helvetica";
+  letter-spacing: 1px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  color: seashell;
+  opacity: 0.9;
+}
+
+p {
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  color: seashell;
+  opacity: 0.9;
+}
+
+a {
+  color: seashell;
+  opacity: 0.9;
+}
+
+/* 2.  Navigation */
+#sec-nav {
+  position: fixed;
+  min-height: 69px;
+  display: flex;
+  background-color: black;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+  opacity: 0.9;
+  top: 0;
+}
+
+.sec-nav-logo {
+  height: 50px;
+  margin: 10px 0 0 10px;
+}
+
+.sec-nav-list {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
+.sec-nav-list li {
+  justify-content: flex-end;
+  padding: 0 15px;
+  font-size: 22px;
+}
+
+/* 3.  Mission */
+#sec-miss {
+  position: relative;
+  width: 100%;
+
+  display: flex;
+}
+.sec-miss-img {
+  margin: 70px auto 0;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+}
+
+.sec-miss-container {
+  background-color: black;
+  width: 1200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.sec-miss-container h2 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.sec-miss-container h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* 4.  Tea of Month */
+.sec-tom-state {
+  text-align: center;
+  width: 1000px;
+  margin: 100px auto 0;
+}
+
+#sec-tom {
+  width: 1000px;
+  margin: 20px auto 50px;
+}
+
+.sec-tom-container-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-tom-list-1 {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.sec-tom-list-1 li {
+  text-align: center;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.sec-tom-list-1 li img {
+  width: 300px;
+  height: 200px;
+}
+
+.sec-tom-container-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-tom-list-2 {
+}
+
+.sec-tom-list-2 li {
+  text-align: center;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.sec-tom-list-2 li img {
+  width: 300px;
+  height: 200px;
+}
