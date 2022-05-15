@@ -77,7 +77,6 @@ a {
 #sec-miss {
   position: relative;
   width: 100%;
-
   display: flex;
 }
 .sec-miss-img {
@@ -111,6 +110,16 @@ a {
   text-align: center;
   width: 1000px;
   margin: 100px auto 0;
+}
+
+.sec-tom-state h2 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.sec-tom-state h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
 #sec-tom {
@@ -156,4 +165,79 @@ a {
 .sec-tom-list-2 li img {
   width: 300px;
   height: 200px;
+}
+
+/* 5.  Location */
+#sec-loc {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.sec-loc-img {
+  margin: 0 auto;
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+}
+
+.sec-loc-container {
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.sec-loc-header {
+  text-align: center;
+  width: 1000px;
+  /* margin: 100px auto 0;
+  position: relative;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  font-size: 30px;
+  opacity: 0.9;
+}
+
+.sec-loc-header h2 {
+  margin: 0;
+}
+
+.sec-loc-sub-cont {
+  display: flex;
+}
+
+.sec-loc-info {
+  background-color: black;
+  color: seashell;
+  width: 300px;
+  text-align: center;
+  margin: 15px 20px 0;
+  font-size: 20px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+/* 6.  Footer */
+.sec-footer {
+  text-align: center;
+  min-height: 200px;
+}
+
+.sec-footer h2 {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.sec-footer h5 {
+  font-size: 13px;
+}
+
+/* 7.  Copyright */
+.copyright {
+  text-align: left;
+  margin-left: 20px;
 }
